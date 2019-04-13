@@ -14,7 +14,7 @@ public class App
 	private void varificar(Object objeto) {
 		if(objeto instanceof Fruta) {
 			canasta.add(objeto);
-			System.out.println("");
+			System.out.println("Fruta Agregada"+" "+ ((Fruta)objeto).getNombre());
 		}else {
 			System.out.println("Elemento no permitido,Solo Frutas");
 		}
